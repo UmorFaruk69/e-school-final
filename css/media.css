@@ -1,0 +1,164 @@
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1199px) {
+  /* Course Start  */
+  .c_course{
+    padding: 20px 15px 25px;
+  }
+  .c_left ul li img, .c_right ul li img{
+    width: 20px;
+}
+.c_left ul li span, .c_right ul li span{
+  margin-left: -9px;
+    font-weight: var(--fw-400);
+    font-size: 15px;
+}
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  header ul li a {
+    margin-bottom: 10px;
+    padding: 0 12px !important;
+  }
+  .header-btn {
+    margin-left: 0;
+  }
+  .banner-image {
+    margin-bottom: 30px;
+    padding: 0 50px;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-text {
+    padding: 0 90px;
+  }
+  .c_course {
+    margin: 40px 100px 0;
+    padding: 24px 20px 30px;
+}
+.ft_details{
+  margin-bottom: 35px;
+  padding: 0 70px;
+}
+.footer_top{
+  text-align: center;
+}
+}
+/* Small devices (Mobile, less than 768px) */
+@media (max-width: 767.98px) {
+  .logo {
+    width: 180px;
+  }
+  header ul li a {
+    margin-bottom: 10px;
+    padding: 0 12px !important;
+  }
+  .header-btn {
+    margin-left: 0;
+  }
+    .banner-image {
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+  .banner-text {
+    text-align: center;
+  }
+.banner-text {
+    padding: 0;
+}
+  .b-heading {
+    font-size: 35px;
+    line-height: 40px;
+}
+.b-inner-text {
+    line-height: 24px;
+}
+.banner{
+    padding: 60px 0;
+}
+.c-padding{
+    padding-bottom: 80px;
+}
+.c_course {
+    margin: 30px 70px 0;
+}
+.c_left ul li img, .c_right ul li img {
+    width: 22px;
+}
+.co_h2 {
+    font-size: 20px;
+}
+/* Testimony Start  */
+.t_item{
+  margin-top: 40px;
+}
+.t_text{
+  text-align: center;
+}
+.t_img {
+    padding: 0 120px 20px;
+}
+.footer_top{
+  text-align: center;
+}
+.ft_details{
+  margin-bottom: 35px;
+  padding: 0 70px;
+}
+/* Testimony End */
+}
+
+/* Extar small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+  .logo {
+    width: 180px;
+  }
+  header ul li a {
+    margin-bottom: 10px;
+    padding: 0 12px !important;
+  }
+  .header-btn {
+    margin-left: 0;
+  }
+  .banner-image {
+    padding: 0;
+}
+.c-padding{
+    padding-bottom: 60px;
+}
+.s_feature {
+    margin: 30px 0 0;
+    padding: 45px 0 40px;
+}
+.s_image {
+    width: 55px;
+    height: 75px;
+}
+.s_h2 {
+    font-size: 20px;
+}
+.c_title h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.c_course {
+    margin: 30px 0 0;
+}
+.t_img {
+    padding: 0 50px 20px;
+}
+.t_item {
+    margin-top: 30px;
+}
+.ft_details{
+  margin-bottom: 35px;
+  padding: 0;
+}
+.ft_links{
+  margin-bottom: 35px;
+}
+.footer_top{
+  padding: 55px 0 20px;
+}
+}
+
+

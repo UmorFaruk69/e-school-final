@@ -1,0 +1,214 @@
+/* Fonts Link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --popp: "Poppins", sans-serif;
+  --robo: "Roboto", sans-serif;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --fs-16: 16px;
+
+  --red: #fd511a;
+  --black: #000000;
+  --green: #21b573;
+  --bgg: #f8fffb;
+}
+
+body {
+  font-family: var(--popp);
+  font-size: 16px;
+  font-weight: var(--fw-400);
+  color: var(--black);
+}
+img {
+  max-width: 100%;
+}
+/* Header Css Start  */
+header {
+  background-color: #f0fff0;
+  padding: 10px 0;
+}
+header ul li a {
+  font-size: 16px;
+  color: var(--black) !important;
+  font-weight: var(--fw-400);
+  line-height: 24px;
+  padding: 0 25px !important;
+}
+header ul li a:hover {
+  color: var(--red) !important;
+}
+.header-btn {
+  padding: 12px 28px;
+  margin-left: 10px;
+}
+.common-btn {
+  background-color: var(--green);
+  color: #fff;
+  border-radius: 33px;
+  font-family: var(--robo);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-400);
+  line-height: 18px;
+  border: none;
+}
+.common-btn:hover,
+.common-btn:active {
+  background-color: var(--red) !important;
+  color: #fff !important;
+}
+/* Header Css End */
+
+/* Banner Css Start  */
+.banner {
+  background-color: #f0fff0;
+  padding: 65px 0;
+}
+.b-subheading {
+  color: var(--red);
+}
+.b-heading {
+  font-size: 48px;
+  font-weight: var(--fw-700);
+  line-height: 70px;
+}
+.b-heading span {
+  color: var(--green);
+}
+.b-inner-text {
+  color: #6c6b6b;
+  line-height: 36px;
+}
+.banner-btn {
+  padding: 12px 36px;
+  box-shadow: 0 4px 4px 0 #00000040;
+}
+
+/* Banner Css End */
+
+/* Feature Start  */
+.c-padding {
+  padding-bottom: 100px;
+}
+.s_feature {
+  margin: 40px 0 0;
+  padding: 55px 0 50px;
+  background-color: var(--bgg);
+  text-align: center;
+  border-radius: 10px;
+}
+.s_feature:hover {
+  background-color: #fff;
+  box-shadow: 0 20px 40px 0 #0000001a;
+}
+.s_image {
+  width: 65px;
+  height: 85px;
+}
+.s_h2 {
+  margin: 22px 0 0;
+  font-family: var(--popp);
+  font-size: 24px;
+  font-weight: var(--fw-500);
+  line-height: 36px;
+  color: #413960;
+}
+.s_p {
+  font-family: var(--popp);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-400);
+  line-height: 24px;
+  color: #585859;
+}
+/* Feature End */
+
+/* Course Start  */
+
+.c_title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 54px;
+}
+.c_course{
+    margin: 60px 0 0;
+    padding: 24px 20px 31px;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.c_img img{
+    border-radius: 11px;
+}
+.co_h2{
+    margin: 20px 0 5px;
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 500;
+    line-height: 36px;
+}
+.btn_co{
+    margin: 20px 0 35px;
+    padding: 8px 28px;
+}
+.c_left ul li img, .c_right ul li img{
+    width: 20px;
+}
+.c_left ul li span, .c_right ul li span{
+    margin-left: -8px;
+    font-weight: var(--fw-500);
+}
+/* Course End */
+
+
+/* Testimony Start  */
+.t_item{
+  margin-top: 60px;
+}
+.t_img img{
+  width: 100%;
+}
+/* Testimony End */
+
+/* Footer Top Start */
+.footer_top{
+  padding: 55px 0 55px;
+  background-color: #282531;
+}
+.ft_details{
+  padding-right: 120px;
+}
+.ft_details p{
+  line-height: 30px;
+}
+.ft_links h2{
+  font-size: 18px;
+  font-weight: var(--fw-700);
+  color: white;
+  line-height: 30px;
+}
+.ft_links ul li a{
+  margin-bottom: 8px;
+  display: block;
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+}
+/* Footer Top End */
+/* Footer Star */
+footer{
+  padding:20px 0 30px;
+  background-color: #282531;
+}
+footer p a{
+  color: white;
+  text-decoration: none;
+}
+footer p{
+  line-height: 30px;
+}
+/* Footer End */
